@@ -17,6 +17,7 @@
 .banner-text {
     width: 100%;
     margin-top: 60px;
+    margin-right: 54px;
 }
 .banner-text h1{
     font-size: 36px;
@@ -25,6 +26,7 @@
 }
 button.watch-btn.login-btn {
     margin-top: -9px;
+    margin-left: -37px;
 }
 .banner-image {
     width: 100%;
@@ -71,6 +73,7 @@ button.watch-btn.login-btn {
 }
 .sehedule-area {
     margin:0;
+    padding: 0px 10px;
 }
 .sehedule-area h2{
     font-size: 24px;
@@ -89,6 +92,7 @@ button.watch-btn.login-btn {
 }
 .login-form {
     width: 100%;
+    padding: 0px 10px;
 }
 #input-field {
     display: flex;
