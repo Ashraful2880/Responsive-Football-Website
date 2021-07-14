@@ -8,7 +8,6 @@
 .container{
     max-width: 688px;
 }
-
 .flex-container {
     display: flex;
     flex-direction: column;
