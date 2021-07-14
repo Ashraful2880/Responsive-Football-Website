@@ -154,6 +154,7 @@ Highlight Section Style Start
   line-height: 28px;
   color: #6C6C6C;
   margin-top: 8px;
+  margin-bottom: 15px;
 }
 .highlight-image{
     max-width: 40%;
@@ -230,12 +231,18 @@ section.contact-area{
     border-bottom: 1px solid rgb(226, 226, 226);
     font-size: 20px;
 }
-button{
+#login-btn{
     text-align: center;
     padding:20px 45px;
     background-color: green;
     color: #fff;
     border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+#login-btn:hover{
+    border: 2px solid green;
+    background: transparent;
+    color: black;
 }
 .login-message{
     width: 50%;

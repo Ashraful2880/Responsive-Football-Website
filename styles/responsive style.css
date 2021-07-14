@@ -1,0 +1,120 @@
+/* Responsive Stylesheet */
+/* For Mobile */
+@media screen and (max-width:688px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.container{
+    max-width: 688px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text {
+    width: 100%;
+    margin-top: 60px;
+}
+.banner-text h1{
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+button.watch-btn.login-btn {
+    margin-top: -9px;
+}
+.banner-image {
+    width: 100%;
+    margin-top: 114px;
+    text-align: center;
+}
+
+
+
+
+
+.player-area{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:27px 0;
+    max-width: 100%;
+    margin: 0;
+}
+.player-item{
+    max-width: 688px;
+}
+.player-item img{
+    max-width: 100%;
+}
+.container{
+    max-width: 100%;
+}
+.highlight-area {
+    margin: 0;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.highlight-text {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+.highlight-image {
+    max-width: 100%;
+    margin-top: 30px;
+}
+.highlight-text h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.sehedule-area {
+    margin:0;
+}
+.sehedule-area h2{
+    font-size: 24px;
+}
+.contact-area{
+    margin: 0;
+    padding: 0px!important;
+}
+.sign-image {
+    width: 100%;
+    left: 0%;
+}
+.login-container {
+    align-items: center;
+    flex-direction: column;
+}
+.login-form {
+    width: 100%;
+}
+#input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+#login-btn{
+    margin-top: 10px;
+}
+.login-message {
+    width: 100%;
+    margin-bottom: -50px;
+    margin-top: 10px;
+}
+footer{
+    width: 400px;
+    margin: -30px auto;
+}
+ header{
+   display: none;    
+}
+}
+/* Mobile Style End */
