@@ -1,5 +1,5 @@
 /* Responsive Stylesheet */
-/* For Mobile */
+/* For Mobile Device*/
 @media screen and (max-width:688px) {
     *{
         margin: 0;
@@ -32,11 +32,6 @@ button.watch-btn.login-btn {
     margin-top: 114px;
     text-align: center;
 }
-
-
-
-
-
 .player-area{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -118,3 +113,104 @@ footer{
 }
 }
 /* Mobile Style End */
+/* For Tablet */
+@media screen and (min-width:689px) and (max-width:991px) {
+    
+    .container{
+        max-width: 991px;
+    }
+    header {
+        padding: 42px 145px 86px 67px;
+    }
+    nav .menu-items {
+        width: 84%;
+    }
+    .menu-items ul a {
+        font-size: 14px;
+    }
+    .banner-area {
+        padding: 0px 100px 0px 66px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+        line-height: 76px;
+    }
+    button.login-btn {
+        top: -14px;
+    }
+    .player-area{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:27px;
+        max-width: 100%;
+        margin: 0;
+    }
+    .player-item{
+        max-width: 991px;
+    }
+    .player-item img{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .highlight-area {
+        margin: 0;
+        padding:10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .highlight-text {
+        max-width: 100%;
+        margin-left: auto;
+        margin-top: 60px;
+    }
+    .highlight-text h1, .highlight-text p {
+        text-align: center;
+    }
+    .highlight-image {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    button.login-btn {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .sehedule-area {
+    margin:80px auto 10px auto;
+    }
+    .sehedule-area h2{
+        font-size: 34px;
+    }
+    .contact-area{
+        margin: 0;
+        padding: 0px!important;
+    }
+    .sign-image {
+        width: 100%;
+        left: 0%;
+    }
+    .login-container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .login-form {
+        width: 100%;
+    }
+    #input-field {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    #login-btn{
+        margin-top: 10px;
+    }
+    .login-message {
+        width: 100%;
+        margin: 10px 0px -50px 0px;
+    }
+}
